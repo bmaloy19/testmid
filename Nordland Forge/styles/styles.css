@@ -1,0 +1,266 @@
+.title {
+  font-family: "Shojumaru", cursive;
+  font-weight: bold;
+  font-size: 300%;
+  flex-wrap: wrap;
+  color: rgb(250, 135, 135);
+}
+
+.story{
+  display: flexbox;
+}
+.mainContent {
+  background-color: #d3d3d3;
+}
+
+/* These are for the images in the about page */
+.p1container{
+  display: flexbox;
+}
+.p2container{
+  display: flexbox;
+}
+.p3container{
+  display: flexbox;
+}
+figure{
+  float: right;
+  width: 20%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.25em;
+  padding: 0.25em;
+}
+#aboutP{
+flex-wrap: wrap;
+}
+/* These are the last of the images in the about page */
+
+/* These are for the footer */
+footer {
+  margin-top: 2em;
+  background-color: #ffffff;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.foot .title {
+  font-family: "Shojumaru", cursive;
+  font-weight: bold;
+  font-size: 3rem;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* These are for the last rules for the footer */
+
+/*Used in the about page*/
+.motto {
+  font-family: "Anton", sans-serif;
+  padding: 0.75em;
+  background-image: url("/images/background.png");
+  margin-bottom: 0px;
+}
+#aboutLastParagraph {
+  padding-bottom: 1em;
+}
+/* Laste rule for about page */
+
+/* These rules are all for the cards */
+.row{
+  justify-content: space-evenly;
+}
+.flex-container div {
+  width: 10em;
+  text-align: center;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+.card-body {
+  background-color: rgb(255, 253, 253);
+}
+.card-header {
+  background-color: rgb(255, 253, 253);
+  font-family: sans-serif;
+}
+.row{
+  margin: 0px;
+}
+.albumpy-5bg-light {
+  background-color: #333333;
+}
+.card {
+  padding: 0.25em;
+  margin: 1em;
+  border-radius: 5px;
+  background-color: black;
+}
+.mb-4 img {
+  height: 400px;
+  width: auto;
+}
+/* Last rule for the cards */
+
+/* This is all for the Nav bar */
+
+.text-white{
+  text-align: left;
+  padding: 7px 14px;
+}
+.navul li{
+  display: grid;
+  float: left;
+}
+.credits, .about, .home {
+  margin: 2em auto;
+  width: 100px;
+  color: white;
+  font-size: 14px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1em 0.5em;
+  cursor: pointer;
+  background: linear-gradient(#252525, #252525 50%,  rgb(250, 135, 135) 50%,  rgb(250, 135, 135));
+  background-size: 100% 200%;
+
+  /*trasition effect for background*/
+  transition: background .5s;
+}
+
+
+.credits:hover, .about:hover, .home:hover {
+  background-position: 100% 100%;
+}
+
+.navbar-toggler {
+  border-radius: 5px;
+  padding: 0.5em 0.5em;
+  font-size: 22px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+.container{
+  display: inline;
+}
+
+.navbar-toggler-icon {
+  background-color: rgb(69, 69, 69);
+  border-radius: 2px;
+}
+
+.navbar-toggler:hover {
+  transform: scale(1.5);
+  transition: all 0.2s ease-in-out;
+  border-radius: 10px;
+  border: 10px;
+}
+/* Last rule for navbar button */
+
+/* Rules for credits.html */
+.creators{
+  text-align: center;
+  font-family: cursive;
+}
+.creators2{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.creators3{
+  text-align: center;
+  font-family:monospace;
+}
+/*Last for credits.html */
+
+/*Rules for custom.html */
+.personalInfo{
+text-align: center;
+}
+.customOrderrow2{
+  display: flex;
+  flex-wrap:wrap;
+}
+.row2{
+  padding-top: 2em;
+  padding-right: 5em;
+}
+.row2 h1{
+  font-size: 1.25em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:bold;
+  color: #990000;
+}
+.formContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.form h1 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.form .personalInfo {
+  margin-top: 20px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form input[type="text"],
+.form input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+.form .col-50 {
+  flex: 50%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.form .col-25 {
+  flex: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.form .col-100 {
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+/*Last rules for custom.html */

@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Pocket Knives",
+        "description": "Every Day Carry Pocket Knives.",
+        "btnName": "View",
+        "imageSrc": "images/pilgrimEDC.jpg"
+    },
+    {
+        "title": "Swords",
+        "description": "Choose From a Variety of Handcrafted Swords",
+        "btnName": "View",
+        "imageSrc": "images/swords.jfif"
+    },
+    {
+        "title": "Daggers",
+        "description": "Choose From a Variety of Daggers",
+        "btnName": "View",
+        "imageSrc": "images/daggers.png"
+    },
+    {
+        "title": "Resin Work",
+        "description": "Choose From a Variety of Resin Work Pices",
+        "btnName": "View",
+        "imageSrc": "images/resinWork.png"
+    }
+
+
+]
